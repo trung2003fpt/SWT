@@ -1,0 +1,65 @@
+.fruite .fruite-item .fruite-img {
+    overflow: hidden;
+}
+
+.fruite .fruite-item .fruite-img img {
+    width: 100%;
+    max-height: 200px; /* Set a maximum height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    transition: transform 0.5s;
+}
+
+.fruite .fruite-item .fruite-img:hover img {
+    transform: scale(1.1);
+}
+
+.fruite .fruite-item .fruite-content {
+    padding: 15px;
+}
+
+.fruite .fruite-item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.fruite .fruite-item p {
+    color: var(--bs-secondary);
+}
+
+.fruite .fruite-item .text-dark.fs-5 {
+    font-size: 1rem;
+}
+
+.fruite .fruite-item .old {
+    text-decoration: line-through;
+}
+
+.fruite .fruite-item a.btn:hover {
+    background-color: var(--bs-light);
+    color: var(--bs-light);
+}
+
+/* Pagination Styling */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: var(--bs-dark);
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    border: 1px solid var(--bs-secondary);
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
+    border: 1px solid var(--bs-secondary);
+}
+
+.pagination a:hover:not(.active) {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+}

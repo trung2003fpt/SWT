@@ -1,0 +1,159 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* logo */
+#element_left {
+    display: flex;
+    align-items: center;
+}
+
+#element_left img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#text h1 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+/* search */
+#element_mid form {
+    display: flex;
+    align-items: center;
+}
+
+#element_mid input[type="search"]:focus {
+    border-color: #86c200; /* Màu xanh lá cây khi focus */
+    outline: none; /* Loại bỏ viền màu xanh lá cây mặc định của trình duyệt */
+}
+
+#element_mid input[type="search"] {
+    padding: 8px;
+    border: 2px solid #86c200; /* Màu xanh lá cây */
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 10px; /* Khoảng cách giữa input và nút search */
+    width: 300px; /* Điều chỉnh chiều rộng input theo mong muốn */
+    height: 50px;
+}
+
+#element_mid button {
+    background-color: #86c200; /* Màu xanh lá cây */
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: -51px; /* Điều chỉnh margin để làm cho nút và input nằm gần nhau */
+    margin-top: 60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#element_mid i {
+    color: black; /* Màu chữ của icon search */
+}
+
+/* login, signup, cart */
+#element_right {
+    display: flex;
+    align-items: center;
+}
+
+#element_right button {
+    background-color: #86c200; /* Màu xanh dương */
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+}
+
+#element_right i {
+    margin-left: 5px;
+}
+
+/* Định dạng cho nút "Giỏ hàng" */
+#element_right button:last-child {
+    background-color: #86c200; /* Màu đỏ */
+}
+
+#element_right button:hover,
+#element_right button:focus {
+    background-color: orange; /* Màu xanh dương đậm khi hover hoặc focus */
+}
+
+/* Định dạng cho icon trong nút "Giỏ hàng" */
+#element_right button:last-child i {
+    color: black;
+}
+
+/* Thanh menu */
+#background_menu {
+    background-color: #86c200;
+    z-index: 10;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 50px; /* Khoảng cách giữa các mục */
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px; /* Kích thước padding để tăng kích thước mục */
+    display: block;
+    font-size: 18px; /* Kích thước chữ lớn hơn */
+}
+
+#menu a:hover {
+    background-color: #ffa500; /* Màu cam nhẹ khi hover */
+}
+
+/* Các thiết lập cho dropdown menu */
+#menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #86c200;
+    z-index: 10;
+}
+
+#menu ul li:hover > ul {
+    display: inherit;
+}
+
+#menu ul ul li {
+    display: block;
+    margin: 10px 0; /* Khoảng cách giữa các mục trong dropdown */
+}
+
+#menu ul ul a {
+    color: black;
+}
+
+#menu ul ul a:hover {
+    background-color: #ffa500; /* Màu cam nhẹ khi hover */
+}
+

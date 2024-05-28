@@ -1,0 +1,120 @@
+/* Footer */
+#footer {
+    background-color: #86c200;
+    padding: 5px 0;
+    color: black;
+    margin-top: 35%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.col {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.text-body-secondary,
+h5,
+.nav-link,
+#section-footer a,
+#block2 p {
+    color: black;
+}
+
+.text-body-secondary {
+    margin-top: 60px;
+}
+
+h5 {
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#block2 p {
+    margin: 9px 0;
+}
+
+/* Adjustments for even spacing */
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col h5,
+.col ul {
+    margin-bottom: 5px;
+}
+
+#section-footer #icons {
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+#section-footer #icons a {
+    margin-right: 5px; /* Adjust the spacing between icons */
+    font-size: 20px;
+}
+
+#section-footer #icons .facebook-icon i {
+    color: #1877f2; /* Facebook icon color */
+}
+
+#section-footer #icons .email-icon i {
+    color: #ff5733; /* Email icon color */
+}
+
+#section-footer #icons .phone-icon i {
+    color: #34b7f1; /* Phone icon color */
+}
+
+/* Common styles for both #section-footer and #block2 */
+#section-footer ul,
+#block2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items vertically centered */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#section-footer li,
+#block2 li {
+    margin-right: 20px; /* Adjust the margin between list items */
+}
+
+#section-footer a,
+#block2 a {
+    color: black;
+    padding: 5px 10px;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px; /* Adjust the spacing between list items and icons */
+}
+
+#section-footer h5,
+#block2 h5 {
+    color: black;
+    padding-bottom: 5px;
+    margin-right: 20px; /* Adjust the margin between h5 and list items */
+    flex-shrink: 0; /* Prevent h5 from shrinking */
+}

@@ -1,0 +1,129 @@
+/* Product Item Styling */
+.fruite .fruite-item {
+    height: 100%;
+    transition: 0.5s;
+    border: 1px solid #86c200; /* Green border color */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fruite .fruite-item:hover {
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.6); /* Orange shadow on hover */
+}
+
+.fruite .fruite-item .fruite-img {
+    overflow: hidden;
+}
+
+.fruite .fruite-item .fruite-img img {
+    width: 100%;
+    max-height: 200px; /* Set a maximum height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    transition: transform 0.5s;
+}
+
+.fruite .fruite-item .fruite-img:hover img {
+    transform: scale(1.1);
+}
+
+.fruite .fruite-item .fruite-content {
+    padding: 15px;
+}
+
+.fruite .fruite-item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.fruite .fruite-item p {
+    color: var(--bs-secondary);
+}
+
+.fruite .fruite-item .text-dark.fs-5 {
+    font-size: 1rem;
+}
+
+.fruite .fruite-item .old {
+    text-decoration: line-through;
+}
+
+/*.fruite .fruite-item a.btn {
+    border: 2px solid var(--bs-primary);
+    color: #86c200;
+    transition: background-color 0.5s, color 0.5s;
+}*/
+
+.fruite .fruite-item a.btn:hover {
+    background-color: var(--bs-light);
+    color: var(--bs-light);
+}
+
+/* Pagination Styling */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: var(--bs-dark);
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    border: 1px solid var(--bs-secondary);
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
+    border: 1px solid var(--bs-secondary);
+}
+
+.pagination a:hover:not(.active) {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+}
+
+/* Responsive Styling */
+@media (max-width: 576px) {
+    .fruite .fruite-categorie .fruite-name {
+        line-height: 30px;
+    }
+}
+
+/* Định dạng cho container-fluid */
+.container-fluid {
+    background-color: #F2F2F2; /* Màu nền */
+}
+
+/* Định dạng cho page-header */
+.page-header {
+    /* Căn giữa nội dung */
+}
+
+/* Định dạng cho breadcrumb */
+.breadcrumb {
+    background-color: transparent; /* Loại bỏ màu nền của breadcrumb */
+    padding: 10px; /* Thêm khoảng cách giữa breadcrumb và lề ngoại vi */
+}
+
+/* Định dạng cho breadcrumb-item */
+.breadcrumb-item {
+    list-style: none; /* Loại bỏ ký hiệu danh sách */
+    display: inline-block; /* Hiển thị các breadcrumb-item trên cùng một dòng */
+    margin-right: 10px; /* Khoảng cách giữa các breadcrumb-item */
+}
+
+/* Định dạng cho breadcrumb-item link */
+.breadcrumb-item a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #86c200; /* Màu của liên kết */
+    font-weight: bold; /* Đậm chữ */
+}
+
+/* Định dạng cho breadcrumb-item link khi hover */
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+    color: #86c200; /* Màu khi hover */
+    text-decoration: none;
+}
+

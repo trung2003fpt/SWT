@@ -1,0 +1,120 @@
+.outer-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container_new {
+    border: 5px solid #F2F2F2;
+    border-radius: 8px;
+    overflow: hidden; /* Clear floats within container */
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-list li {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Clear floats within item */
+}
+
+.item-list img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+}
+
+.text-content {
+    padding: 15px;
+}
+
+.item-list h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.item-list p {
+    color: #555;
+}
+
+.item-list li:hover img {
+    transform: scale(1.1);
+}
+
+.item-list h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333; /* Text color for h3 */
+}
+
+.item-list p {
+    color: #555;
+    font-size: 14px; /* Adjust font size based on your preference */
+}
+
+.item-list a:hover h3,
+.item-list a:hover p {
+    color: #86c200; /* Change text color on hover */
+}
+
+/*Banner*/
+/* Định dạng cho container-fluid */
+.container-fluid {
+    background-color: #F2F2F2; /* Màu nền */
+}
+
+/* Định dạng cho page-header */
+.page-header {
+    /* Căn giữa nội dung */
+}
+
+/* Định dạng cho breadcrumb */
+.breadcrumb {
+    background-color: transparent; /* Loại bỏ màu nền của breadcrumb */
+    padding: 10px; /* Thêm khoảng cách giữa breadcrumb và lề ngoại vi */
+}
+
+/* Định dạng cho breadcrumb-item */
+.breadcrumb-item {
+    list-style: none; /* Loại bỏ ký hiệu danh sách */
+    display: inline-block; /* Hiển thị các breadcrumb-item trên cùng một dòng */
+    margin-right: 10px; /* Khoảng cách giữa các breadcrumb-item */
+}
+
+/* Định dạng cho breadcrumb-item link */
+.breadcrumb-item a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #86c200; /* Màu của liên kết */
+    font-weight: bold; /* Đậm chữ */
+}
+
+/* Định dạng cho breadcrumb-item link khi hover */
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+    color: #86c200; /* Màu khi hover */
+    text-decoration: none;
+}

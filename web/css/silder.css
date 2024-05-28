@@ -1,0 +1,120 @@
+/* Slider */
+.slider {
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 420px;
+    /*    z-index: -1;*/
+}
+
+.slider .list {
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+
+.slider .list img {
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slider .buttons button.arrow {
+    font-size: 20px;
+}
+
+.slider .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.slider .dots li.active {
+    width: 30px;
+}
+
+.slider .buttons button.arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: "Font Awesome 6 Free"; /* Font Awesome 6 Solid is used in this example, adjust accordingly */
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider .buttons button.arrow:hover {
+    background-color: #86c200; /* Màu xanh khi hover */
+    cursor: pointer;
+}
+
+/* Styles for Font Awesome icons */
+.slider .buttons button.arrow i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Adjust the styles for the left arrow */
+.slider .buttons #prev i {
+    margin-left: -2px; /* Adjust the horizontal position */
+}
+
+/* Adjust the styles for the right arrow */
+.slider .buttons #next i {
+    margin-left: 2px; /* Adjust the horizontal position */
+}
+
+

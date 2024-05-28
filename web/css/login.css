@@ -1,0 +1,154 @@
+/* header_login */
+#header_logo {
+    display: flex;
+    background: #86c200;
+}
+
+#header_logo img {
+    margin-left: 290px;
+}
+#header_logo h2 {
+    margin-top: 40px;
+    font-family: cursive;
+}
+
+/*#header_logo a {
+    margin-left: 700px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+}*/
+#header_logo .fa-zoom-in {
+    transform: scale(1.5); /* Điều chỉnh giá trị scale theo nhu cầu */
+}
+
+/* Thêm kiểu cho button Back */
+#header_logo button {
+    padding: 5px 5px; /* Điều chỉnh padding theo nhu cầu */
+    background-color: #86c200; /* Màu nền của button */
+    color: black; /* Màu chữ của button */
+    border: 1px solid #86c200; /*Độ đậm và màu viền của button */
+    border-radius: 5px; /* Độ cong của góc */
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 810px;
+    font-size: 18px;
+}
+
+/* Thêm kiểu cho icon trong button */
+#header_logo button i {
+    margin-left: 5px; /* Khoảng cách giữa chữ và icon */
+    font-size: 18px;
+}
+
+#header_logo button:hover {
+    background-color: #86c200; /* Màu nền khi hover */
+    color: black; /* Màu chữ khi hover */
+}
+
+/* login */
+#login {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    background: #86c200;
+    border: 10px solid whitesmoke;
+}
+
+#login form {
+    margin-left: 800px;
+}
+
+.login-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #86c200;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(2, 1, 1);
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(2, 1, 1);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(2, 1, 1);
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(2, 1, 1);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(2, 1, 1);
+    font-size: 12px;
+}
+
+.login-box form input[type="submit"] {
+    position: relative;
+    display: inline-block;
+    background-color: #86c200;
+    padding: 10px 20px;
+    color: rgb(2, 1, 1);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    margin-left: 25%;
+}
+
+.login-box input[type="submit"]:hover {
+    background: orange;
+    color: rgb(2, 1, 1);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #f4c803, 0 0 25px #bd9d0b, 0 0 50px #f4e403,
+        0 0 100px #d5cf1e;
+}
+
+/* Remember Me checkbox */
+.login-box label.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(2, 1, 1);
+}
+
+.login-box label.remember-me input {
+    margin-right: 10px;
+}
+
+.login-box label.remember-me span {
+    font-size: 16px;
+}

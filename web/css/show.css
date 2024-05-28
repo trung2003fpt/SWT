@@ -1,0 +1,65 @@
+/* Giới Thiệu Section */
+#show {
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center; /* Canh giữa nội dung */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng nhẹ */
+}
+
+#show h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và đoạn văn */
+}
+
+#show p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#show img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px; /* Bo tròn góc ảnh */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho ảnh */
+}
+
+/* Định dạng cho container-fluid */
+.container-fluid {
+    background-color: #F2F2F2; /* Màu nền */
+}
+
+/* Định dạng cho page-header */
+.page-header {
+    /* Căn giữa nội dung */
+}
+
+/* Định dạng cho breadcrumb */
+.breadcrumb {
+    background-color: transparent; /* Loại bỏ màu nền của breadcrumb */
+    padding: 10px; /* Thêm khoảng cách giữa breadcrumb và lề ngoại vi */
+    z-index: -1;
+}
+
+/* Định dạng cho breadcrumb-item */
+.breadcrumb-item {
+    list-style: none; /* Loại bỏ ký hiệu danh sách */
+    display: inline-block; /* Hiển thị các breadcrumb-item trên cùng một dòng */
+    margin-right: 10px; /* Khoảng cách giữa các breadcrumb-item */
+}
+
+/* Định dạng cho breadcrumb-item link */
+.breadcrumb-item a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #86c200; /* Màu của liên kết */
+    font-weight: bold; /* Đậm chữ */
+}
+
+/* Định dạng cho breadcrumb-item link khi hover */
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+    color: #86c200; /* Màu khi hover */
+    text-decoration: none;
+}

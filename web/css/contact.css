@@ -1,0 +1,142 @@
+/* Style the page-wrapper */
+.page-wrapper {
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Style the company information section */
+.col-inner h4 {
+    color: #333;
+}
+
+.col-inner p {
+    line-height: 1.6;
+}
+
+/* Style the contact form */
+.form-lien-he {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-lien-he h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.form-lien-he .des {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-lien-he label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-lien-he input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-lien-he input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-lien-he input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the map */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Style the contact information section */
+.lien-he-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box-text {
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .col-divided {
+        flex-direction: column;
+    }
+
+    #content {
+        padding: 10px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+
+/*Banner*/
+/* Định dạng cho container-fluid */
+.container-fluid {
+    background-color: #F2F2F2; /* Màu nền */
+}
+
+/* Định dạng cho page-header */
+.page-header {
+    /* Căn giữa nội dung */
+}
+
+/* Định dạng cho breadcrumb */
+.breadcrumb {
+    background-color: transparent; /* Loại bỏ màu nền của breadcrumb */
+    padding: 10px; /* Thêm khoảng cách giữa breadcrumb và lề ngoại vi */
+}
+
+/* Định dạng cho breadcrumb-item */
+.breadcrumb-item {
+    list-style: none; /* Loại bỏ ký hiệu danh sách */
+    display: inline-block; /* Hiển thị các breadcrumb-item trên cùng một dòng */
+    margin-right: 10px; /* Khoảng cách giữa các breadcrumb-item */
+}
+
+/* Định dạng cho breadcrumb-item link */
+.breadcrumb-item a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #86c200; /* Màu của liên kết */
+    font-weight: bold; /* Đậm chữ */
+}
+
+/* Định dạng cho breadcrumb-item link khi hover */
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+    color: #86c200; /* Màu khi hover */
+    text-decoration: none;
+}

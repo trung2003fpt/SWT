@@ -1,0 +1,46 @@
+/* Định dạng cho container-fluid */
+.container-fluid {
+    background-color: #F2F2F2; /* Màu nền */
+}
+
+/* Định dạng cho page-header */
+.page-header {
+    /* Căn giữa nội dung */
+}
+
+/* Định dạng cho breadcrumb */
+.breadcrumb {
+    background-color: transparent; /* Loại bỏ màu nền của breadcrumb */
+    padding: 10px; /* Thêm khoảng cách giữa breadcrumb và lề ngoại vi */
+}
+
+/* Định dạng cho breadcrumb-item */
+.breadcrumb-item {
+    list-style: none; /* Loại bỏ ký hiệu danh sách */
+    display: inline-block; /* Hiển thị các breadcrumb-item trên cùng một dòng */
+    margin-right: 10px; /* Khoảng cách giữa các breadcrumb-item */
+}
+
+/* Định dạng cho breadcrumb-item link */
+.breadcrumb-item a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #86c200; /* Màu của liên kết */
+    font-weight: bold; /* Đậm chữ */
+}
+
+/* Định dạng cho breadcrumb-item link khi hover */
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+    color: #86c200; /* Màu khi hover */
+    text-decoration: none;
+}
+
+/* CSS styling for img1 */
+#img1 {
+    width: 600px; /* Đặt chiều rộng theo mong muốn */
+    height: 700px; /* Đặt chiều cao theo mong muốn */
+    object-fit: cover; /* Đảm bảo ảnh bao phủ kích thước đối tượng */
+}
+
+/*data sản phẩm tương tự*/
+
